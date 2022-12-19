@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-# 1-calculation.py
-# Felix-Muraguri <felixmuraguri@gmail.com>
 
-if __bane == "__main__":
+
+if __name == "__main__":
     """Print the sum, difference, multiple and quotient of 10 and 5."""
     from calculator_1 import add, sub, mul, div
 
