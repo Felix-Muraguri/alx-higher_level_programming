@@ -1,13 +1,19 @@
 #!/usr/bin/python3
-"""A class Square that defines a square based on 3-square.py"""
+"""A class Square that defines a square based on 3-square.py
+
+"""
 
 class Square:
-    """Square class with a private attribute - size."""
+    """Square class with a private attribute - size.
+
+    """
 
     def __init__(self, size = 0):
-        """Initializes the size variable as a private instance attribute."""
-        self.__size = size
+        """Initializes the size variable as a private instance attribute.
 
+        """
+        self.__size = size
+        
         @property
         def size(self):
             """Instantiation with optional size of square."""
@@ -25,4 +31,4 @@ class Square:
 
         def area(self):
             """Returns the current square area"""
-            return self.__dize ** 2
+            return self.__size ** 2

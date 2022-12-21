@@ -16,7 +16,7 @@ class Square:
         return self.__size
 
     @size.setter
-    def size(se;f, size_value):
+    def size(self, size_value):
         """Gets the size of the square"""
         self.__size = size_value
 
@@ -35,7 +35,7 @@ class Square:
          """Must be a tuple of 2 positive integers, otherwise raise a TypeError exception"""
          self.__position = size_value
 
-         if (not isinstance(size_value, typle) or
+         if (not isinstance(size_value, tuple) or
                  len(size_value) != 2 or
                  not all(isinstance(num, int) for num in size_value) or
                  not all(num >= 0 for num in size_value)):
